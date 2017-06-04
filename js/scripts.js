@@ -2,6 +2,7 @@
 function getTriangleArea(a, h) {
 	if ( ( a <= 0) || (h <= 0) ) {
 		return 'Incorrect data';
+		// dlatego wpisałam 'incorrect' + 'data' dlatego, ze nie działało mi jak było razem nie wiem czemu. Teraz zmieniłam i działa :) 
 	}
 	else {
 		return a*h/2;
